@@ -44,6 +44,11 @@ html,body
 	border: 2px solid white;
 }
 
+#minute
+{
+	border: 2px solid white;	
+}
+
 #second
 {
 	height: 50px;
