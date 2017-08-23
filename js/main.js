@@ -4,9 +4,11 @@ function setDate()
 	var seconds = a.getSeconds();
 	var secondDegrees = seconds * 6;
 	document.querySelector("#second").style.transform = `rotate(${secondDegrees}deg)`;
-	var minuteDegrees = seconds * 1/10;
+	var minute = a.getMinutes();
+	var minuteDegrees = minute * 6;
 	document.querySelector("#minute").style.transform = `rotate(${minuteDegrees}deg`;
-	var hourDegrees = hour * 1/120 ;
+	var hour = a.getHours();
+	var hourDegrees = hour * 30 ;
 	document.querySelector("#hour").style.transform = `rotate(${hourDegrees}deg`;
 }
 
